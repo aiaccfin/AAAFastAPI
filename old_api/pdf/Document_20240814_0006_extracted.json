@@ -1,0 +1,88 @@
+[
+    {
+        "bank_name": "JING ZHANG LAW PROFESSIONAL CC",
+        "address": {
+            "street": "251 Consumers Road Suite 1200",
+            "city": "Toronto",
+            "province": "ON",
+            "postal_code": "M2J 4R3",
+            "country": "Canada"
+        },
+        "contact": {
+            "phone": "647 718 4239",
+            "fax": "647 361 0869"
+        },
+        "invoice_details": {
+            "date": "December 31, 2024",
+            "invoice_number": "1139",
+            "file_number": "2401165"
+        },
+        "client": {
+            "name": "Yuen Sang Wong",
+            "location": "ON Canada"
+        },
+        "transaction": {
+            "reference": "Yuen Sang Albert Wong and Meiying Qin p/f Xia of 9 Blackwell Crt, Markham",
+            "closing_date": "August 15, 2024"
+        },
+        "fees": {
+            "description": "My Fee Herein for Your purchase from Xia of 9 Blackwell Crt, Markham",
+            "amount": 1665.94
+        },
+        "disbursements": [
+            {
+                "description": "Bank Charges",
+                "amount": 20.0
+            },
+            {
+                "description": "Tax Certificate",
+                "amount": 108.5
+            },
+            {
+                "description": "Photocopies, Telephone and Fax",
+                "amount": 160.0
+            },
+            {
+                "description": "Water Certificate",
+                "amount": 15.0
+            },
+            {
+                "description": "E-Reg Service Charge",
+                "amount": 32.8
+            },
+            {
+                "description": "Title Insurance Premium",
+                "amount": 1961.28
+            },
+            {
+                "description": "Statutory Fee",
+                "amount": 37.35
+            },
+            {
+                "description": "Fire Search",
+                "amount": 153.0
+            },
+            {
+                "description": "ESA Search",
+                "amount": 61.95
+            },
+            {
+                "description": "Property Compliance Search",
+                "amount": 200.0
+            }
+        ],
+        "total_disbursements": 2749.68,
+        "tax": {
+            "total_gst_hst": 271.5,
+            "tax_id_number": "711244715"
+        },
+        "invoice_summary": {
+            "total_invoice": 4687.12,
+            "less_transferred_from_trust": 4687.12,
+            "balance_due_now": 0.0
+        },
+        "signature": "JING ZHANG",
+        "notes": "E. & O. E.",
+        "tax_exempt_note": "* tax-exempt"
+    }
+]

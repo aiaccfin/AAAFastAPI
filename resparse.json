@@ -1,0 +1,537 @@
+{
+    "summary": {
+        "beginning_balance": 27756.42,
+        "deposits_and_other_credits": 94198.69,
+        "withdrawals_and_other_debits": -86982.32,
+        "checks": -6100.0,
+        "service_fees": -0.0,
+        "ending_balance": 28872.79
+    },
+    "transactions": [
+        {
+            "date": "05/01/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 5484.58
+        },
+        {
+            "date": "05/01/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 2978.07
+        },
+        {
+            "date": "05/01/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 2549.63
+        },
+        {
+            "date": "05/01/23",
+            "description": "MENUSIFU INC. DES:MENUSIFU I ID:ST-P1Z9J5L2T4L9 INDN:CHA HOUSE CO ID:4270465600 CCD",
+            "amount": 2089.02
+        },
+        {
+            "date": "05/02/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 1894.47
+        },
+        {
+            "date": "05/04/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 2733.73
+        },
+        {
+            "date": "05/05/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 5734.43
+        },
+        {
+            "date": "05/05/23",
+            "description": "DoorDash, Inc. DES:Cha House3 ID:ST-I6A6Y9Z7G2U5 INDN:CHA HOUSE LLC CO ID:4270465600 CCD",
+            "amount": 2628.18
+        },
+        {
+            "date": "05/08/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 8849.23
+        },
+        {
+            "date": "05/08/23",
+            "description": "MENUSIFU INC. DES:MENUSIFU I ID:ST-A8O1Z6B4C4T8 INDN:CHA HOUSE CO ID:4270465600 CCD",
+            "amount": 1800.3
+        },
+        {
+            "date": "05/10/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 2295.04
+        },
+        {
+            "date": "05/11/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 2801.66
+        },
+        {
+            "date": "05/11/23",
+            "description": "Counter Credit",
+            "amount": 1790.0
+        },
+        {
+            "date": "05/12/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 2811.94
+        },
+        {
+            "date": "05/12/23",
+            "description": "DoorDash, Inc. DES:Cha House3 ID:ST-P1C7P3N8S4M1 INDN:TEA HILL LLC CO ID:4270465600 CCD",
+            "amount": 2377.11
+        },
+        {
+            "date": "05/15/23",
+            "description": "MENUSIFU INC. DES:MENUSIFU I ID:ST-V0C8A1P3V1Y9 INDN:CHA HOUSE CO ID:4270465600 CCD",
+            "amount": 1881.91
+        },
+        {
+            "date": "05/16/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 11539.52
+        },
+        {
+            "date": "05/19/23",
+            "description": "DoorDash, Inc. DES:Cha House3 ID:ST-T5H1G1L6W8K3 INDN:TEA HILL LLC CO ID:4270465600 CCD",
+            "amount": 2224.66
+        },
+        {
+            "date": "05/22/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 5178.15
+        },
+        {
+            "date": "05/22/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 3715.78
+        },
+        {
+            "date": "05/22/23",
+            "description": "MENUSIFU INC. DES:MENUSIFU I ID:ST-L1I3O5Y5Q0U2 INDN:CHA HOUSE CO ID:4270465600 CCD",
+            "amount": 1904.37
+        },
+        {
+            "date": "05/22/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 1745.06
+        },
+        {
+            "date": "05/24/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 3198.78
+        },
+        {
+            "date": "05/24/23",
+            "description": "TD AMERITRADE DES:ACCTVERIFY ID:aZ9PTQCGIH INDN:CHIU YA HUEI CO ID:4470533629 PPD",
+            "amount": 0.14
+        },
+        {
+            "date": "05/24/23",
+            "description": "TD AMERITRADE DES:ACCTVERIFY ID:aZ9PTQCGIH INDN:CHIU YA HUEI CO ID:4470533629 PPD",
+            "amount": 0.12
+        },
+        {
+            "date": "05/26/23",
+            "description": "DoorDash, Inc. DES:Cha House3 ID:ST-S3J5X3T4C3P9 INDN:TEA HILL LLC CO ID:4270465600 CCD",
+            "amount": 2045.53
+        },
+        {
+            "date": "05/26/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 1845.23
+        },
+        {
+            "date": "05/30/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 5115.23
+        },
+        {
+            "date": "05/30/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 1789.08
+        },
+        {
+            "date": "05/30/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": 1725.67
+        },
+        {
+            "date": "05/30/23",
+            "description": "MENUSIFU INC. DES:MENUSIFU I ID:ST-U5H0L2R9T9L4 INDN:CHA HOUSE CO ID:4270465600 CCD",
+            "amount": 1472.07
+        },
+        {
+            "date": "05/01/23",
+            "description": "Online Banking payment to CRD 6177 Confirmation# 2695967696",
+            "amount": -961.87
+        },
+        {
+            "date": "05/02/23",
+            "description": "IRS DES:USATAXPYMT ID:227352266040016 INDN:TEA HILL LLC CO ID:3387702000 CCD",
+            "amount": -7150.21
+        },
+        {
+            "date": "05/02/23",
+            "description": "NC DEPT REVENUE DES:TAX PYMT ID:043000091691690 INDN:1400310000036713152921 CO ID:9044030460 CCD",
+            "amount": -5855.54
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -1907.45
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -1718.58
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -713.46
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -700.8
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -666.31
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:TAX ID:9861203 INDN:TEA HILL, LLC CO ID:1943345425 CCD",
+            "amount": -642.0
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -582.28
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -580.7
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -516.79
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -483.23
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -477.28
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -437.85
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -401.28
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -347.79
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -343.64
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -302.73
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -292.43
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -260.43
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -250.47
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -243.22
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -203.26
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -193.93
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -193.0
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -130.21
+        },
+        {
+            "date": "05/02/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -69.32
+        },
+        {
+            "date": "05/03/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": -2598.62
+        },
+        {
+            "date": "05/03/23",
+            "description": "DUKEENERGY DES:BILL PAY ID:910015077477 INDN:YA HUEI CHIU CO ID:DECJPM4638 WEB",
+            "amount": -99.1
+        },
+        {
+            "date": "05/04/23",
+            "description": "CHASE CREDIT CRD DES:AUTOPAYBUS ID:000000000400701 INDN:CHIU YA HUEI CO ID:4760039224 PPD",
+            "amount": -726.49
+        },
+        {
+            "date": "05/08/23",
+            "description": "CHASE CREDIT CRD DES:EPAY ID:6687539863 INDN:YA HUEI CHIU CO ID:5760039224 WEB",
+            "amount": -2814.88
+        },
+        {
+            "date": "05/10/23",
+            "description": "CHASE CREDIT CRD DES:AUTOPAY ID:000000000125869 INDN:CHIU YA HUEI CO ID:4760039224 PPD",
+            "amount": -688.85
+        },
+        {
+            "date": "05/10/23",
+            "description": "CHASE CREDIT CRD DES:AUTOPAY ID:000000000313031 INDN:CHIU YUN LIANG CO ID:4760039224 PPD",
+            "amount": -660.6
+        },
+        {
+            "date": "05/10/23",
+            "description": "DOMINION ENERGY DES:DRAFT ID:9210133103384 INDN:YA HUEI CHIU CO ID:9570248695 WEB",
+            "amount": -163.04
+        },
+        {
+            "date": "05/11/23",
+            "description": "CITI AUTOPAY DES:PAYMENT ID:081061051920415 INDN:YA HUEI CHIU CO ID:CITICARDAP WEB",
+            "amount": -354.65
+        },
+        {
+            "date": "05/12/23",
+            "description": "CHASE CREDIT CRD DES:AUTOPAY ID:000000000325317 INDN:CHIU YA HUEI CO ID:4760039224 PPD",
+            "amount": -2254.09
+        },
+        {
+            "date": "05/12/23",
+            "description": "CHASE CREDIT CRD DES:AUTOPAYBUS ID:000000000210909 INDN:CHIU YA HUEI CO ID:4760039224 PPD",
+            "amount": -145.73
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -1907.46
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -1718.58
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -804.56
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -788.27
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -730.33
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -643.11
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -585.69
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -546.82
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -446.24
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -435.19
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -364.23
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -351.43
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -328.48
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -323.16
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -287.98
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -275.46
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -269.1
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -231.7
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -224.7
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -193.94
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -150.0
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -148.9
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -142.23
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -128.55
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -76.18
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -65.52
+        },
+        {
+            "date": "05/17/23",
+            "description": "PAYROLL DES:PAYROLL ID:9861203 INDN:TEA HILL, LLC CO ID:4462800242 CCD",
+            "amount": -36.18
+        },
+        {
+            "date": "05/17/23",
+            "description": "MERCHANT BNKCD DES:DEPOSIT ID:266465843883 INDN:TEA HILL CO ID:FXXXXXXXXX CCD",
+            "amount": -14.08
+        },
+        {
+            "date": "05/18/23",
+            "description": "Online Banking payment to CRD 6177 Confirmation# 4245706085",
+            "amount": -1214.42
+        },
+        {
+            "date": "05/23/23",
+            "description": "Zelle payment to Ya Huei Chiu Conf# bng39m34u",
+            "amount": -10000.0
+        },
+        {
+            "date": "05/24/23",
+            "description": "TD AMERITRADE DES:ACCTVERIFY ID:aZ9PTQCGIH INDN:CHIU YA HUEI CO ID:3470533629 WEB",
+            "amount": -0.14
+        },
+        {
+            "date": "05/24/23",
+            "description": "TD AMERITRADE DES:ACCTVERIFY ID:aZ9PTQCGIH INDN:CHIU YA HUEI CO ID:3470533629 WEB",
+            "amount": -0.12
+        },
+        {
+            "date": "05/25/23",
+            "description": "WIRE TYPE:FX OUT DATE:230530 TIME:0436 ET TRN:2023052500016191 FX:TWD 327341.00 29.656 BNF:T FOODS CO.,LTD ID:5399188022055 BNF BK:TAIWAN COOPERATIVE BANK ID:TACBTWTP531 PMT DET:439584330 TAIWAN SUPPLIES POP GOODS /FXREF/TE-2-6-160431636",
+            "amount": -11037.93
+        },
+        {
+            "date": "05/25/23",
+            "description": "AMERICAN EXPRESS DES:ACH PMT ID:A8818 INDN:Ya Huei Chiu CO ID:3133133497 CCD",
+            "amount": -9665.6
+        },
+        {
+            "date": "05/30/23",
+            "description": "CAPITAL ONE DES:CRCARDPMT ID:3RP03H4M2RJFQQA INDN:YA HUEI CHIU CO ID:9541719318 WEB",
+            "amount": -5713.93
+        },
+        {
+            "date": "05/03/23",
+            "description": "Check #1042",
+            "amount": -6100.0
+        }
+    ]
+}

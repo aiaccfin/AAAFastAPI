@@ -1,0 +1,136 @@
+import os, time, logging, shutil, json
+from pathlib import Path
+
+from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.events import EVENT_JOB_EXECUTED, EVENT_JOB_ERROR
+
+from app.db.pg.crud import c_bs
+from app.services import s_bs1
+from typing import Optional
+from PyPDF2 import PdfReader
+from app.llm import ai_bs1
+
+from app.db.pg.p_conn import get_session_no_yield
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+def is_textpdf(file_path: Path) -> bool:
+    try:
+        # Open the file in binary mode
+        with open(file_path, "rb") as file:  # Open the file
+            pdf_reader = PdfReader(file)  # Pass the file object to PdfReader
+            for page in pdf_reader.pages:
+                if page.extract_text().strip():  # If any text exists on the page
+                    print('is textpdf?')
+                    return True
+        return False
+    except Exception as e:
+        print(f"Error: {e}")
+        return False  # If reading fails, treat as non-text PDF
+    
+
+def bs_textpdf(file_path: str, pdf_name: str, pdf_folder: str) -> Optional[dict]:
+    try:
+        # Open the file directly
+        with open(file_path, 'rb') as file:
+            pdf_reader = PdfReader(file)
+            text = "\n".join(page.extract_text() for page in pdf_reader.pages)
+            output_json = text.split("\n")
+        
+        ai_res = ai_bs1.bs_ai_txt(output_json)
+        parsed_json = json.loads(ai_res)
+        print(f"Processing PDF: {pdf_name}")
+
+        # Save the output files
+        output_filename = os.path.join(pdf_folder, pdf_name.replace('.pdf', '_txt.json'))
+        parsed_filename = os.path.join(pdf_folder, pdf_name.replace('.pdf', '_txt_parsed.json'))
+        
+        with open(output_filename, 'w', encoding='utf-8') as f:
+            json.dump(output_json, f, ensure_ascii=False, indent=4)
+        with open(parsed_filename, 'w', encoding='utf-8') as f:
+            json.dump(parsed_json, f, ensure_ascii=False, indent=4)
+
+        return parsed_json
+
+    except Exception as e:
+        print(f"Error processing PDF: {str(e)}")
+        return None    
+    
+def my_task():
+    logger.info("Task is running...")
+    upload_folder = Path("./tmp/v61").resolve()
+    finish_folder = Path("./tmp/v61done").resolve()
+    error_folder = Path("./tmp/error").resolve()
+    try:
+        with get_session_no_yield() as db: 
+            # Loop through all files in the upload folder   
+            for oFile in upload_folder.iterdir():
+                logger.info(f"Trying to open file: {oFile}")
+                if oFile.is_file():
+                    try:
+                        if oFile.suffix.lower() != '.pdf':  # Skip non-PDF files like .json
+                            logger.info(f"Skipping non-PDF file: {oFile.name}")
+                            continue
+                        
+                        pdf_name = oFile.name
+                        pdf_name_without_pdf = pdf_name.rsplit('.', 1)[0]
+                        pdf_folder = str(oFile.parent)
+                        logger.info(f"2 Trying to open file: {oFile}")
+                        # Process the file as text-pdf or img-pdf
+                        try:
+                            if is_textpdf(oFile):  # Ensure oFile is a Path object
+                                bs_data = bs_textpdf(oFile, pdf_name, pdf_folder)
+                                _type = "text-pdf"
+                            else:
+                                bs_data = s_bs1.bs_imgpdf(pdf_name, pdf_folder)
+                                _type = "img-pdf"
+                        except Exception as e:
+                            # Handle errors from is_textpdf or bs_textpdf
+                            logger.error(f"Error processing file {oFile.name}: {str(e)}")
+                            shutil.move(str(oFile), os.path.join(error_folder, oFile.name))  # Move to error folder
+                            continue  # Skip this file and continue with the next
+                        logger.info(f"3 Trying to open file: {_type}")
+
+                        if not bs_data:
+                            logger.error(f"Failed to process PDF: {pdf_name}")
+                            shutil.move(str(oFile), os.path.join(error_folder, pdf_name))
+                            continue
+
+                        # Save the processed data to the database
+                        try:
+                            result = c_bs.save_bs_w_filename(bs_data, pdf_name_without_pdf, db)
+                        except Exception as e:
+                            logger.error(f"Invalid UUID error for file {oFile.name}: {str(e)}")
+                            shutil.move(str(oFile), os.path.join(error_folder, oFile.name))  # Move to error folder
+                            continue  # Skip this file and continue with others    
+
+                        logger.info(f"Processed {pdf_name} as {_type} and saved to DB.")
+                        shutil.move(str(oFile), os.path.join(finish_folder, pdf_name))
+                        logger.info(f"Moved {pdf_name} to the 'done' folder.")
+                    except Exception as file_error:
+                        # In case of any error with a file, move it to error folder
+                        logger.error(f"Error with file {oFile.name}: {file_error}")
+                        shutil.move(str(oFile), os.path.join(error_folder, oFile.name))  # Move to error folder
+                        continue
+
+    except Exception as e:
+        logger.error(f"Server error while processing files: {str(e)}")
+
+# Initialize the scheduler
+scheduler = BackgroundScheduler()
+
+# Add the periodic task to the scheduler (every 10 minutes)
+scheduler.add_job(my_task, 'interval', minutes=15)
+
+# Start the scheduler
+scheduler.start()
+
+# This is important to keep the script running
+try:
+    while True:
+        time.sleep(1)  # Keeps the script alive while the background job runs
+except (KeyboardInterrupt, SystemExit):
+    # Graceful shutdown when the script is stopped
+    print("Shutting down scheduler...")
+    scheduler.shutdown()

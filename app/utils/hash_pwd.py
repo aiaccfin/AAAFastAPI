@@ -1,0 +1,1 @@
+https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/#check-it

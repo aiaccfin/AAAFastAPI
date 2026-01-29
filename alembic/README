@@ -1,0 +1,12 @@
+Generic single-database configuration.
+
+alembic revision -m "create tenant_sequences table and next_invoice_number function"
+alembic upgrade head
+
+
+
+alembic init alembic
+alembic.ini：Alembic 的主配置文件，用于配置数据库连接、脚本位置等。
+env.py：Alembic 运行时的环境配置脚本，非常重要。
+script.py.mako：用于生成新迁移脚本的模板文件。
+versions/：所有生成的迁移脚本将存放于此。

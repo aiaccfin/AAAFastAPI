@@ -1,0 +1,69 @@
+[
+    {
+        "header": {
+            "company_name": "JING ZHANG LAW PROFESSIONAL CC",
+            "address": "251 Consumers Road Suite 1200 Toronto, ON M2J 4R3 Canada",
+            "phone": "647 718 4239",
+            "fax": "647 361 0869",
+            "invoice_number": "1145",
+            "file_number": "2401151",
+            "date": "January 17, 2025"
+        },
+        "client": {
+            "name": "Rouzbeh Afrasiabi",
+            "location": "ON Canada"
+        },
+        "reference": {
+            "details": "Afrasiabi, Rouzbeh & Besher, Marwa p/f Hill, Kereena Latoya & Affan, Eltahir Khalid of 3293 Mockingbird Common, Oakville, ON",
+            "closing_date": "August 26, 2024"
+        },
+        "fee": {
+            "description": "My Fee Herein for Your purchase from Hill/Affan of 3293 Mockingbird Common, Oakville",
+            "amount": 1022.85
+        },
+        "disbursements": [
+            {
+                "description": "Bank Charges *",
+                "amount": 10.0
+            },
+            {
+                "description": "Tax Certificate *",
+                "amount": 100.0
+            },
+            {
+                "description": "Photocopies, Telephone and Fax",
+                "amount": 160.0
+            },
+            {
+                "description": "Software Transaction Charge",
+                "amount": 110.0
+            },
+            {
+                "description": "E-Reg Service Charge",
+                "amount": 69.05
+            },
+            {
+                "description": "Title Insurance Premium *",
+                "amount": 1082.97
+            },
+            {
+                "description": "Statutory Fee *",
+                "amount": 73.55
+            }
+        ],
+        "totals": {
+            "total_disbursements": 1605.57,
+            "total_gst_hst": 177.05,
+            "total_invoice": 2805.47,
+            "less_transferred_from_trust": 2805.47,
+            "balance_due_now": 0.0
+        },
+        "signature": "JING ZHANG",
+        "notes": {
+            "e_and_o_e": true,
+            "tax_exempt": true,
+            "tax_id_number": "711244715",
+            "total_gst_hst": 177.05
+        }
+    }
+]

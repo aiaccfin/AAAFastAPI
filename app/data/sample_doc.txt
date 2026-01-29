@@ -1,0 +1,7 @@
+FastAPI is a modern, fast web framework for building APIs with Python.
+It is built on top of Starlette and Pydantic.
+
+FastAPI supports asynchronous programming and automatic OpenAPI generation.
+It is widely used in production for AI and machine learning systems.
+
+RAG systems often use FastAPI to orchestrate ingestion, retrieval, and inference.

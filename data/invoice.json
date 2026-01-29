@@ -1,0 +1,25 @@
+{
+    "vendor": "1000808275 Ontario Corporation",
+    "invoice_to": "ventureLab Innovation Centre c/o Datamond System Inc",
+    "address": "3600 Steeles Ave E., Markham, ON L3R 9Z7",
+    "invoice_number": "20250401",
+    "date": "Mar.24-Apr.06, 2025",
+    "due_date": "Apr.13, 2025",
+    "terms": "Net 7 Days",
+    "service_description": "AI Software Engineering Service for Datamond System Inc.",
+    "items": [
+      {
+        "description": "AI Software Engineering Service",
+        "quantity": 2,
+        "rate": 1000,
+        "amount": 2000
+      }
+    ],
+    "message": "Thank you for your business!",
+    "subtotal": 2000,
+    "discount": 0,
+    "tax": 260,
+    "total": 2260,
+    "balance_due": 2260
+  }
+  
